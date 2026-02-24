@@ -5,10 +5,7 @@ import './collection.css'
 import kurta from "./Images/kurta_I.png"
 import saree from "./Images/Saree_I.png"
 import arrival from "./Images/NewArrival.png"
-import p_1 from "./Images/p_1.png";
-import p_2 from "./Images/p_2.png";
-import p_3 from "./Images/p_3.png";
-import p_4 from "./Images/p_4.png";
+
 
 
 const Collection=()=>{
@@ -248,6 +245,7 @@ return(
 ><li><img src={product.images[0]} alt={product.label} loading="lazy" className="item"/></li>
 <li>{product.label}</li>
 <li>Price:₹{product.price}</li>
+<li>Including GST</li>
 <li>Fabric:{product.type}</li>
 <li>Pieces:{product.Pieces}</li>
 <li><button type="button" className="viewcollection" onClick={()=>viewcollection(product.id)}>View Details</button></li></div>)}

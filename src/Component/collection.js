@@ -245,7 +245,7 @@ return(
 ><li><img src={product.images[0]} alt={product.label} loading="lazy" className="item"/></li>
 <li>{product.label}</li>
 <li>Price:₹{product.price}</li>
-<li>Including GST</li>
+<li>(Including GST)</li>
 <li>Fabric:{product.type}</li>
 <li>Pieces:{product.Pieces}</li>
 <li><button type="button" className="viewcollection" onClick={()=>viewcollection(product.id)}>View Details</button></li></div>)}

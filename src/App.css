@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+  background-color:black;
+  margin-top:0px;
+
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+footer{
+  background:#2B1B17;      /* brown */
+  color:#FAF3E0;           /* cream */
+  text-align:center;
+  padding:12px 0;
+  margin-top:auto;
+}
+
+.footer-bottom{
+  font-size:14px;
+  letter-spacing:0.5px;
+}

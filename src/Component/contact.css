@@ -1,0 +1,32 @@
+.icon{
+
+height:30px;
+width:30px;
+padding:1px;
+  object-fit:contain;}
+
+.scanner{
+height:120px;
+width:100px;
+padding:10px;
+}
+.Main-conatiner{
+display:flex;
+box-sizing:border-box;
+text-align:center;
+justify-content:center;
+align-items:center;
+flex-direction:row;
+background-color:#2B1B17;
+  min-height: 70vh;
+
+color:white;}
+
+
+.scanner-container{
+display:flex;
+flex-direction:column;
+padding:10px;
+margin:10px;
+
+}

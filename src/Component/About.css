@@ -1,0 +1,33 @@
+.About-container{
+display:flex;
+flex-direction:row;
+
+background-color:#2B1B17;
+color:#ffffff;
+justify-content: center;
+align-items:center;
+min-height:100%;
+
+}
+.sub-conatainer{
+text-align: left;
+box-sizing:border-box;
+
+min-height: 60vh;
+
+
+}
+.Women-logo{
+
+display:flex;
+box-sizing:border-box;
+  height: 400px;
+  object-fit: contain;
+ margin-right:-300px;
+ 
+
+}
+button{
+border-radius:10px;
+padding:7px;
+}

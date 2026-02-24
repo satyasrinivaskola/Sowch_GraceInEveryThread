@@ -1,0 +1,13 @@
+.bottom-container{
+display:flex;
+flex-direction:row;
+background-color:#b97d6e;
+min-height:auto;
+margin-top:-20px;
+box-sizing: border-box;
+min-width:auto;
+
+}
+
+
+

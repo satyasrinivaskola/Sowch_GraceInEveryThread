@@ -2,18 +2,12 @@ import {useState} from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import './collection.css'
-import kurta from "./Images/kurta_I.png"
-import saree from "./Images/Saree_I.png"
-import arrival from "./Images/NewArrival.png"
-
 
 
 const Collection=()=>{
 const [view,setView]=useState(false)
 const[item_details,setitem_details]=useState([])
-const collection_items=[{name:"Sarees",url:saree},
-{name:"Kurtas",url:kurta},
-{name:"Sarees",url:arrival}]
+
 
 const products = [
   { id: "D1", label: "Designer Kurti", color: "Red", price: 1783.95, size: ["S","M","L","XL"],

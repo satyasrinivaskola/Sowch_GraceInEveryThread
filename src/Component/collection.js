@@ -12,7 +12,7 @@ const[item_details,setitem_details]=useState([])
 const products = [
   { id: "D1", label: "Designer Kurti", color: "Red", price: 1783.95, size: ["S","M","L","XL"],
   type:"Soft Silk",Pieces:3,
-    images: ["/images/sowch/D1-1.jpg","/images/sowch/D1-2.jpg","/images/sowch/D1-3.jpg"] },
+    images: ["/images/sowch/D1-1.webp","/images/sowch/D1-2.webp","/images/sowch/D1-3.webp"] },
 
   { id: "D2", label: "Traditional Wear Suit", color: "Green", price: 1573.95, size: ["XXL","L","XL"],
     type:"Soft Silk",Pieces:3,

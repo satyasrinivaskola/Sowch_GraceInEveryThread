@@ -16,7 +16,7 @@ const products = [
 
   { id: "D2", label: "Traditional Wear Suit", color: "Green", price: 1573.95, size: ["XXL","L","XL"],
     type:"Soft Silk",Pieces:3,
-    images: ["/images/sowch/D2-1.jpg","/images/sowch/D2-2.jpg","/images/sowch/D2-3.jpg","/images/sowch/D2-4.jpg"] },
+    images: ["/images/sowch/D2-1.webp","/images/sowch/D2-2.webp","/images/sowch/D2-3.webp","/images/sowch/D2-4.webp"] },
 
   { id: "D3", label: "Casual Wear top", color: "Cream & Pink", price: 891.45, size: ["L","M","XL","XXL"],
     type:"Soft Silk",Pieces:2,
@@ -32,7 +32,7 @@ const products = [
 
   { id: "D6", label: "Casual Wear top", color: "Violet", price: 891.45, size: ["M","L","XL","XXL"],
     type:"Soft Silk",Pieces:2,
-    images: ["/images/sowch/D6-1.jpg","/images/sowch/D6-2.jpg","/images/sowch/D6-3.jpg"] },
+    images: ["/images/sowch/D6-1.webp","/images/sowch/D6-2.webp","/images/sowch/D6-3.webp"] },
 
   { id: "D7", label: "Casual Wear top", color: "Dark Green", price: 891.45, size: ["M","L","XL","XXL"],
     type:"Soft Silk",Pieces:2,
@@ -148,19 +148,19 @@ return(
 
       <div className="carousel-item active">
         <img
-          src="/images/sowch/D1-1.jpg"
+          src="./images/sowch/D1-1.webp"
          
-          alt="slide1"
+          alt="first"
           style={{ height: "500px", objectFit: "contain" }}
         /> 
         <img
-          src="/images/sowch/D1-2.jpg"
+          src="./Images/sowch/D1-2.webp"
          
           alt="slide1"
           style={{ height: "500px", objectFit: "contain" }}
         />
            <img
-          src="/images/sowch/D1-3.jpg"
+          src="/images/sowch/D1-3.webp"
          
           alt="slide1"
           style={{ height: "500px", objectFit: "contain" }}

@@ -10,4 +10,8 @@ min-width:auto;
 }
 
 
-
+@media (max-width<600px) {
+   .bottom-container{
+   display: flex;
+   flex-direction: column;} 
+}

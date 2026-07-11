@@ -10,7 +10,7 @@ const Home=()=><div>
         
         <Collection />
         <div className="bottom-container"> 
-     <About />
+   
      <Contact />
      </div>
 </div>

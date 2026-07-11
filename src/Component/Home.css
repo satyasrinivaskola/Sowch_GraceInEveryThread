@@ -1,6 +1,6 @@
 .bottom-container{
 display:flex;
-flex-direction:row;
+flex-direction:column;
 background-color:#b97d6e;
 min-height:auto;
 margin-top:-20px;
@@ -10,8 +10,4 @@ min-width:auto;
 }
 
 
-@media (max-width<600px) {
-   .bottom-container{
-   display: flex;
-   flex-direction: column;} 
-}
+

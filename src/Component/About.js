@@ -10,7 +10,7 @@ const About=()=>
 
 <div className="sub-conatainer">
 <h1>About Sowch</h1>
-<p>Swoch-Grace in every thread .We offer premium traditional 
+<p>Sowch-Grace in every thread .We offer premium traditional 
 and modern ethnic wear for women ,blending timeless elegance
 with contemporary fashion </p>
 </div>

@@ -55,7 +55,7 @@ setView(false)
 return(
 <div className="collection-container">
 
-<h1 className="top-header">New Collectionsa</h1>
+<h1 className="top-header">New Collections</h1>
 
 <div className="container-fluid p-10" style={{width:"100%" }}>
   <div
